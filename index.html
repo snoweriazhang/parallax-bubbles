@@ -25,7 +25,7 @@
 
 	    	context.beginPath();
 	    	context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
-	    	context.fillStyle = 'rgba(244,153,146,'+(Math.random()*0.5+0.4)+')';
+	    	context.fillStyle = 'rgba(244,153,146,'+(Math.random()*0.5+0.5)+')';
 	    	context.fill();
     	}
 
@@ -35,7 +35,7 @@
     <canvas id="parallax_medium" height="4000" width="2560"></canvas>
     <script>
     
-    	for(var i=0;i<30;i++){
+    	for(var i=0;i<40;i++){
 	    	var canvas = document.getElementById('parallax_medium');
 	    	var context = canvas.getContext('2d');
 	    	var centerX = Math.random()*canvas.width;
@@ -44,7 +44,7 @@
 
 	    	context.beginPath();
 	    	context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
-	    	context.fillStyle = 'rgba(160,212,200,'+(Math.random()*0.3+0.2)+')';
+	    	context.fillStyle = 'rgba(160,212,200,'+(Math.random()*0.3+0.3)+')';
 	    	context.fill();
     	}
 
@@ -62,7 +62,7 @@
 
 	    	context.beginPath();
 	    	context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
-	    	context.fillStyle = 'rgba(255,221,118,'+(Math.random()*0.3)+')';
+	    	context.fillStyle = 'rgba(255,221,118,'+(Math.random()*0.3+0.1)+')';
 	    	context.fill();
     	}
 
