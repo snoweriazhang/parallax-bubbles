@@ -1,0 +1,22 @@
+body{
+	height:3000px;
+}
+
+canvas{
+	position: absolute;
+	top:0;
+	left:0;
+	overflow:scroll;
+}
+#parallax_fast{
+	z-index: 3;
+}
+
+
+#parallax_medium{
+	z-index:2;
+}
+
+#parallax_slow{
+	z-index:1;
+}

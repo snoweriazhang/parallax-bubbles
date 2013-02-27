@@ -1,0 +1,68 @@
+#slider_container{
+	margin:50px auto;
+	background: url('../images/macbook.png') no-repeat;
+	height:386px;
+	width:638px;
+}
+
+#slider{
+	height:303px;
+	width:485px;
+	position: relative;
+	top:20px;
+	margin: 0 auto;
+}
+
+#slider_container nav{
+	width:638px;
+	height:32px;
+	margin-top: 80px;
+	text-align: center;
+}
+
+#prev, #next, .dot_nav{
+	position:relative;
+	top:10px;
+	margin:5px;
+}
+
+#prev{
+	height:12px;
+	width:7px;
+	padding:0;
+	background: url('../images/nav_btn.png') no-repeat;
+	border:none;
+}
+
+#prev:hover{
+	background-position: -7px;	
+}
+
+#next{
+	height:12px;
+	width:7px;
+	padding:0;
+	background: url('../images/nav_btn.png') no-repeat;
+	background-position: -21px;	
+	border:none;
+}
+
+#next:hover{
+	background-position: -14px;	
+}
+
+button.dot_nav{
+	height:12px;
+	width:12px;
+	background:url('../images/nav_dot.png') no-repeat;
+	border:none;
+	padding:0;
+}
+
+button.dot_nav:hover{
+	background-position: -12px;
+}
+
+button.dot_nav.active{
+	background-position: -24px;
+}
