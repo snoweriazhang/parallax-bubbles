@@ -77,6 +77,17 @@
 			$top = $(window).scrollTop();
 			$('#parallax_medium').css('-webkit-transform', 'translateY('+ ($top/2) +'px)');
 			$('#parallax_slow').css('-webkit-transform', 'translateY('+ ($top/1.5) +'px)');
+
+			$('#parallax_medium').css('-moz-transform', 'translateY('+ ($top/2) +'px)');
+			$('#parallax_slow').css('-moz-transform', 'translateY('+ ($top/1.5) +'px)');
+
+			$('#parallax_medium').css('-ms-transform', 'translateY('+ ($top/2) +'px)');
+			$('#parallax_slow').css('-ms-transform', 'translateY('+ ($top/1.5) +'px)');
+
+			// $closeToBottom = ($top + $(window).height() > $(document).height() - 100);
+		 //    	if($closeToBottom) {
+		 //      		$('#parallax_slow').after($('canvas').clone());
+		 //    	}
 		});
 
 	});
